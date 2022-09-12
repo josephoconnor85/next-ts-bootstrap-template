@@ -1,4 +1,0 @@
-
-prisma
-folder structure
-components
