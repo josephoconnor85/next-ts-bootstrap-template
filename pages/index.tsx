@@ -1,15 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tbutton from "../components/templates/Tbutton";
+import Tcontainer from "../components/templates/Tcontainer";
 
 
 const Home = () => {
   return (
-    <Tbutton
-      variant="outline-danger"
-      text="danger"
- 
-    />
-
+    <div>Hello World</div>
   );
 };
 
