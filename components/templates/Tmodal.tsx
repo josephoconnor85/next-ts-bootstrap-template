@@ -8,7 +8,7 @@ interface Props {
 
 const Tmodal = ({ show, handleClose, title }: Props) => {
     return (
-        <Modal show={show} onHide={() => handleClose}>
+        <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
                 <Modal.Title>{title}</Modal.Title>
             </Modal.Header>

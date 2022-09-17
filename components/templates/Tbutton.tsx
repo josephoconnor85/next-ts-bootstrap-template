@@ -14,7 +14,7 @@ const Tbutton = ({ variant, size, disabled, handleClick, text }: Props) => {
             variant={variant}
             size={size}
             disabled={disabled}
-            onClick={() => handleClick}
+            onClick={handleClick}
         >
             {text}
         </Button>
